@@ -14,22 +14,29 @@
         <td>Pens</td>
         <td>$ 2.00</td>
         <td>{{stock1}}</td>
+        <td><app-child (myEvent)='check()'>
+
+        </app-child></td>
       </tr>
       <tr>
         <td>2</td>
         <td>Pencils</td>
         <td>$ 1.00</td>
         <td>{{stock2}}</td>
+        <td><app-child (myEvent)='check1()'>
+
+        </app-child></td>
       </tr>
       <tr>
         <td>3</td>
         <td>Erasers</td>
         <td>$ 0.50</td>
         <td>{{stock3}}</td>
+        <td><app-child (myEvent)='check2()'>
+
+        </app-child></td>
       </tr>
     </tbody>
   </table>
- <app-child (myEvent)='check()'>
 
- </app-child>
 </div>
