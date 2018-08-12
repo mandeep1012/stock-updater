@@ -1,0 +1,35 @@
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Stock</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Pens</td>
+        <td>$ 2.00</td>
+        <td>{{stock1}}</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Pencils</td>
+        <td>$ 1.00</td>
+        <td>{{stock2}}</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Erasers</td>
+        <td>$ 0.50</td>
+        <td>{{stock3}}</td>
+      </tr>
+    </tbody>
+  </table>
+ <app-child (myEvent)='check()'>
+
+ </app-child>
+</div>
